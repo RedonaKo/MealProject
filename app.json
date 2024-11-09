@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "My Recipe Book",
+    "displayName": "ProjectFolder6",
+    "entryFile": "./expo/AppEntry.js",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "backgroundColor": "#5c1a15",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#5c1a15"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.redonakonushevci.myrecipebook"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.redona_konushevci.myrecipebook"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "22ab36ca-93a5-422f-8045-51e72fc3fc07"
+      }
+    }
+  }
+}
